@@ -4012,6 +4012,29 @@ footer .social-links a:hover {
 #wip a.button {
     margin: 2.0rem 0 0
 }
+
+#education {
+    background: #fff;
+    text-align: center
+}
+#education img {
+    margin: 4.0rem 0 1.5rem;
+    border-radius: 6px;
+    width: 90%;
+    height: auto
+}
+@media screen and (min-width: 750px) {
+    #education img {
+        margin: 4.0rem 0 1.0rem
+    }
+}
+#education p.description {
+    margin: 1.0rem 0
+}
+#education a.button {
+    margin: 2.0rem 0 0
+}
+
 #sub-footer {
     background-color: #1abc9c;
     text-align: center;
