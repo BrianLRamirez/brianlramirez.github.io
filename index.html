@@ -44,6 +44,41 @@
 
 <body>
 
+	<!-- Preloader -->
+<div id="preloader" class="light">
+	<div class="outer">
+		<!-- Google Chrome -->
+		<div class="infinityChrome">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+
+		<!-- Safari and others -->
+		<div class="infinity">
+			<div>
+				<span></span>
+			</div>
+			<div>
+				<span></span>
+			</div>
+			<div>
+				<span></span>
+			</div>
+		</div>
+		<!-- Stuff -->
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="goo-outer">
+			<defs>
+				<filter id="goo">
+					<feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur" />
+					<feColorMatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+					<feBlend in="SourceGraphic" in2="goo" />
+				</filter>
+			</defs>
+		</svg>
+	</div>
+</div>
+
 <!-- main layout -->
 <main class="content-3">
 	
@@ -156,25 +191,37 @@
 			
 			<div class="row">
 				
-				<div class="col-md-6 col-sm-6">
+				<div class="col-md-4 col-sm-6">
 					<!-- fact item -->
 					<div class="fact-item">
 						<span class="icon fas fa-users"></span>
 						<div class="details">
 							<h3 class="mb-0 mt-0">1 Billion +</h3>
-							<p class="mb-0 underlined" data-toggle="tooltip" title="At Google Photos, I shipped features that reaced over 1 billion active users." data-placement="bottom">Users Reached</p>
+							<p class="mb-0 underlined" data-toggle="tooltip" title="At Google Photos, I shipped features that reached over 1 billion active users." data-placement="bottom">Users Reached</p>
 						</div>
 					</div>
 					<div class="spacer d-md-none d-lg-none" data-height="30"></div>
 				</div>
 
-				<div class="col-md-6 col-sm-6">
+				<div class="col-md-4 col-sm-6">
 					<!-- fact item -->
 					<div class="fact-item">
 						<span class="icon fab fa-app-store"></span>
 						<div class="details">
 							<h3 class="mb-0 mt-0 number"><em class="count">30</em>K+</h3>
 							<p class="mb-0 underlined" data-toggle="tooltip" title="During their time on the App Store, my apps were downloaded more than 30,000 times." data-placement="bottom">App Store Downloads</p>
+						</div>
+					</div>
+					
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<!-- fact item -->
+					<div class="fact-item">
+						<span class="icon fas fa-graduation-cap"></span>
+						<div class="details">
+							<h3 class="mb-0 mt-0 number"><em class="count">500</em>+</h3>
+							<p class="mb-0 underlined" data-toggle="tooltip" title="I've been part of the teaching staff for classes from intro to programming for middle schoolers, all the way to college level CS courses. Reaching over 500 students along the way." data-placement="bottom">Students Reached</p>
 						</div>
 					</div>
 					
@@ -298,7 +345,7 @@
 						<div class="portfolio-item rounded shadow-dark">
 							<div class="details">
 								<span class="term">Hardware & Website</span>
-								<h4 class="title">Code Beats</h4>
+								<h4 class="title">Code Beats: Making CS education fun</h4>
 							</div>
 							<div class="thumb">
 								<img src="images/projects/codeBeats.png" alt="Portfolio-title" />
@@ -543,7 +590,7 @@
 					<!-- client item -->
 					<div class="client-item">
 						<div class="inner" style="font-size: 5em;">
-							<i class="devicon-react-original-wordmark colored"></i>
+							<i class="devicon-ruby-plain-wordmark colored"></i>
 						</div>
 					</div>
 				</div>
@@ -561,7 +608,7 @@
 					<!-- client item -->
 					<div class="client-item">
 						<div class="inner" style="font-size: 5em;">
-							<i class="devicon-css3-plain-wordmark colored"></i>
+							<i class="devicon-sass-original"></i>
 						</div>
 					</div>
 				</div>
@@ -569,7 +616,7 @@
 				<div class="col-md-3 col-6">
 					<!-- client item -->
 					<div class="client-item">
-						<div class="inner" style="font-size: 8em;">
+						<div class="inner" style="font-size: 6em;">
 							<i class="devicon-amazonwebservices-plain-wordmark colored"></i>
 						</div>
 					</div>
@@ -633,7 +680,7 @@
 					<!-- client item -->
 					<div class="client-item">
 						<div class="inner" style="font-size: 5em;">
-							<i class="devicon-ruby-plain-wordmark colored"></i>
+							<i class="devicon-react-original-wordmark colored"></i>
 						</div>
 					</div>
 				</div>
@@ -641,8 +688,8 @@
 				<div class="col-md-3 col-6">
 					<!-- client item -->
 					<div class="client-item">
-						<div class="inner" style="font-size: 5em;">
-							<i class="devicon-sass-original colored"></i>
+						<div class="inner" style="font-size: 9em;">
+							<i class="devicon-django-plain-wordmark colored"></i>
 						</div>
 					</div>
 				</div>
@@ -673,6 +720,44 @@
 						</div>
 					</div>
 				</div>
+
+				<div class="col-md-3 col-6">
+					<!-- client item -->
+					<div class="client-item">
+						<div class="inner" style="font-size: 9em;">
+							<i class="devicon-androidstudio-plain-wordmark"></i>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-6">
+					<!-- client item -->
+					<div class="client-item">
+						<div class="inner" style="font-size: 10em;">
+							<i class="devicon-elasticsearch-plain-wordmark colored"></i>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-6">
+					<!-- client item -->
+					<div class="client-item">
+						<div class="inner" style="font-size: 8em;">
+							<i class="devicon-go-original-wordmark colored"></i>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-6">
+					<!-- client item -->
+					<div class="client-item">
+						<div class="inner" style="font-size: 5em;">
+							<i class="devicon-docker-plain-wordmark colored"></i>
+						</div>
+					</div>
+				</div>
+
+				
 				
 			</div>
 
